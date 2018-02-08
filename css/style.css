@@ -1,0 +1,278 @@
+body,
+html,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  font: inherit;
+}
+.background {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #00cce2;
+}
+.background .container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 5px;
+  background-color: #F4F5F7;
+  margin: 30px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.background .container .headerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+.background .container .headerTop .logo {
+  padding: 20px;
+}
+.background .container .headerTop .logo i {
+  color: #00cce2;
+}
+.background .container .headerTop .shopIcon {
+  padding: 20px;
+}
+.background .container .headerTop .shopIcon i {
+  color: #00cce2;
+}
+.background .container .cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #F4F5F7;
+  width: 90%;
+}
+.background .container .cards .headerBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F4F5F7;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  align-items: center;
+}
+.background .container .cards .headerBottom .headTitle {
+  font-family: 'Asul', sans-serif;
+  padding: 20px;
+  font-size: 20px;
+  color: #808080;
+}
+.background .container .cards .headerBottom .headButton {
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #2A2A2A;
+  background-color: #F4F5F7;
+  font-size: 12px;
+  background-color: #FFFFFF;
+  height: 30px;
+  align-items: center;
+  border: 1px solid #00cce2;
+  padding: 0 40px;
+}
+.background .container .cards .headerBottom .headButton a {
+  text-decoration: none;
+  color: #00cce2;
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  font-family: 'Asul', sans-serif;
+}
+.background .container .cards .headerBottom .headButton:hover {
+  color: #FFFFFF;
+}
+.background .container .cards .recipe {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px 0 10px 0;
+  justify-content: space-around;
+  box-shadow: 0 0 5px #808080;
+  margin-bottom: 20px;
+}
+.background .container .cards .recipe .photoContainer {
+  padding: 20px 10px 20px 10px;
+}
+.background .container .cards .recipe .photoContainer .pTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  align-items: center;
+  height: 35px;
+}
+.background .container .cards .recipe .photoContainer .pTitle .pDescription {
+  font-family: 'Asul', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.background .container .cards .recipe .photoContainer .pTitle .price {
+  color: #00cce2;
+  font-family: 'Asul', sans-serif;
+  font-size: 18px;
+}
+.background .container .cards .recipe .photoContainer .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background .container .cards .recipe .photoContainer .photo .pButton {
+  border-radius: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #2A2A2A;
+  background-color: #F4F5F7;
+  font-size: 12px;
+  display: flex;
+  background-color: #00cce2;
+  height: 30px;
+  position: absolute;
+  width: 195px;
+  bottom: 250px;
+  align-items: center;
+}
+.background .container .cards .recipe .photoContainer .photo .pButton a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-top: 15px;
+  font-family: 'Asul', sans-serif;
+}
+.background .container .cards .recipe .photoContainer .photo .pButton:hover {
+  color: #FFFFFF;
+}
+.background .container .cards .recipe .photoContainer .photo img {
+  width: 270px;
+  position: relative;
+}
+.background .container .cards .recipe .reviews {
+  padding: 20px 10px 20px 10px;
+}
+.background .container .cards .recipe .reviews .rTitle {
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+  height: 35px;
+}
+.background .container .cards .recipe .reviews .rTitle .stars i {
+  color: #FFCC00;
+}
+.background .container .cards .recipe .reviews .rTitle a {
+  font-family: 'Asul', sans-serif;
+  text-decoration: none;
+  color: #00cce2;
+  padding-left: 51px;
+  font-size: 12px;
+}
+.background .container .cards .recipe .reviews .listReviews {
+  color: #808080;
+  font-size: 12px;
+}
+.background .container .cards .recipe .reviews .listReviews li {
+  display: block;
+  padding: 5px 0;
+}
+.background .container .cards .recipe .reviews .flavorOptions {
+  padding-top: 50px;
+}
+.background .container .cards .recipe .reviews .flavorOptions div {
+  color: #808080;
+  padding: 5px 0;
+  font-size: 12px;
+}
+.background .container .cards .recipe .subscribe {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 20px 20px;
+  border-left: 2px solid #F4F5F7;
+}
+.background .container .cards .recipe .subscribe .toggle {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.background .container .cards .recipe .subscribe .toggle p {
+  color: #808080;
+  font-family: 'Asul', sans-serif;
+}
+.background .container .cards .recipe .subscribe .toggle .switch .outside {
+  background-color: #F4F5F7;
+  border-radius: 20px;
+  padding: 3px 30px 3px 3px;
+}
+.background .container .cards .recipe .subscribe .toggle .switch .outside .inside {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 2px 10px 2px 10px;
+}
+.background .container .cards .recipe .subscribe .toggle .switch .outside .inside a {
+  color: #00cce2;
+  text-decoration: none;
+  font-family: 'Asul', sans-serif;
+  font-size: 12px;
+}
+.background .container .cards .recipe .subscribe .savings {
+  color: #808080;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.background .container .cards .recipe .subscribe .quantity {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 109px;
+  align-items: center;
+  color: #808080;
+}
+.background .container .cards .recipe .subscribe .quantity select {
+  width: 100px;
+  height: 31px;
+  background-color: #FFFFFF;
+  border: 2px solid #F4F5F7;
+}
+.background .container .cards .recipe .subscribe .cartButton {
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #2A2A2A;
+  background-color: #F4F5F7;
+  font-size: 12px;
+  display: flex;
+  background-color: #00cce2;
+  align-items: center;
+  margin: 15px 0 0 0;
+  height: 40px;
+  width: 100%;
+}
+.background .container .cards .recipe .subscribe .cartButton a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-top: 15px;
+  font-family: 'Asul', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.background .container .cards .recipe .subscribe .cartButton:hover {
+  color: #FFFFFF;
+}
