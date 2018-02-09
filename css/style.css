@@ -32,6 +32,7 @@ a {
   margin: 30px;
   align-items: center;
   padding-bottom: 20px;
+  box-shadow: 0 0 5px #808080;
 }
 .background .container .headerTop {
   display: flex;
@@ -268,7 +269,7 @@ a {
 .background .container .cards .recipe .subscribe .cartButton a {
   text-decoration: none;
   color: #FFFFFF;
-  margin-top: 15px;
+  margin-top: 22px;
   font-family: 'Asul', sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
